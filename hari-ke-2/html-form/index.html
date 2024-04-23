@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Form</title>
+</head>
+<body>
+
+    <form action="/form-process" method="get">
+
+        <fieldset>
+            <legend>Contoh Input</legend>
+
+            <input type="text" name="fullname" placeholder="Nama Lengkap" required maxlength="10" oninvalid="this.setCustomValidity('Enter Name Here')">
+            <br>
+            <br>
+            <input type="number" name="age" placeholder="Umur" required="">
+            <br>
+            <br>
+            <input type="password" name="loginPassword" placeholder="Masukkan Password">
+            <br>
+            <br>
+            <input type="date" name="tanggalLahi" placeholder="Tanggal Lahir">
+            <br>
+            <br>
+            <input type="email" name="email" placeholder="Masukkan Email" disabled>
+            
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Checklist</legend>
+
+            <h3>Hobi</h3>
+ 
+            <input type="checkbox" id="hobi1" name="hobi" value="berenang" checked>
+            <label for="hobi1">Berenang</label>
+            
+            <br>
+            
+            <input type="checkbox" id="hobi2" name="hobi" value="sepakbola">
+            <label for="">Sepak Bola</label>
+            
+            <br>
+            
+            <input type="checkbox" id="hobi3" name="hobi" value="berkuda">
+            <label for="">Berkuda</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Radio</legend>
+
+            <h4>Jenis Kelamin</h4>
+
+            <input type="radio" id="perempuan" name="jenisKelamin" value="Perempuan">
+            <label for="">Perempuan</label>
+
+            <br>
+
+            <input type="radio" id="laki-laki" name="jenisKelamin" value="Laku-laki">
+            <label for="laki-laki">Laki-laki</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dropdown Selection</legend>
+
+            <h3>Pilihan Kelas</h3>
+
+            <select name="pilihanKelas">
+                <option value="phpweb">PHP Web Development</option>
+                <option value="pythonweb">Python Web Development</option>
+                <option value="scratch" selected>Scratch Programming</option>
+                <option value="thunkable">Thunkable Mobile App</option>
+            </select>
+
+        </fieldset>
+
+        <br>
+        <input type="reset" name="reset" value="Reset">
+        <input type="submit" name="submit" value="Daftar">
+        
+    </form>
+    
+</body>
+</html>

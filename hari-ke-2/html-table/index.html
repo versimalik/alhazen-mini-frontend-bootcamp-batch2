@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Table</title>
+</head>
+<body>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Alamat</th>
+            </tr>  
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ahmad Subekti</td>
+                <td rowspan="2" bgcolor="brown">Depok</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td align="right">Deni</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Andi</td>
+                <td>Surabaya</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr align="right">
+                <td colspan="3">Total Siswa: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <table width="90%" border="1" cellspacing="5" cellpadding="5" summary="This table combines colspan and rowspan">
+        <caption>Combining colspan and rowspan</caption>
+        <tr>
+           <th colspan="2" rowspan="2">Header (spans 2 columns and 2 rows)</th>
+           <td>data</td>
+        </tr>
+        <tr>
+           <td>data</td>
+        </tr>
+        <tr>
+           <td>data</td>
+           <td>data</td>
+           <td>data</td>
+        </tr>
+     </table>
+
+    
+    
+</body>
+</html>

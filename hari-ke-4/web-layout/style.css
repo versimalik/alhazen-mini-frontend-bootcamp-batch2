@@ -1,0 +1,76 @@
+#header
+{
+    border: 0.5px solid red;
+    margin: auto auto 3px auto;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+#navigation-menu
+{
+    border: 0.5px solid red;
+    margin: auto auto 3px auto;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+#content{
+    border: 0.5px solid red;
+    margin: auto auto 3px auto;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    height: 400px;
+}
+
+#left-content{
+    float: left;
+    background-color: rgb(228, 175, 175);
+    width: 20%;
+    height: 400px;
+}
+
+#main{
+    float: left;
+    width: 60%;
+    height: 400px;
+}
+
+#right-content{
+    float: left;
+    background-color: rgb(228, 175, 175);
+    width: 20%;
+    height: 400px;
+}
+
+#footer{
+    border: 0.5px solid red;
+    margin: auto auto 3px auto;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* di bawah ini adalah project web layout */
+#left{
+    float: left;
+    background-color: rgb(201, 66, 66);
+    width: 20%;
+    height: 65px;
+}
+
+#right{
+    float: left;
+    background-color: rgb(201, 66, 66);
+    width: 20%;
+    height: 65px;
+}
+
+#main-foot{
+    float: left;
+    width: 60%;
+    height: 65px;
+}

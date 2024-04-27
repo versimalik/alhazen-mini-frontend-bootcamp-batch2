@@ -9,31 +9,33 @@
 
     <h1>Formulir Pendaftaran</h1>
 
-    <fieldset>
-        <legend>Biodata Diri</legend>
-
-        <p>Masukkan data pribadi Anda</p>
-
-        <table border="1">
-            <tr>
-                <td>
-                    <label for="namalengkap">Nama Lengkap</label>
-                </td>
-                <td>
-                    <input type="text" name="namalengkap" id="namalengkap" placeholder="Masukkan nama lengkap"> 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="kotalahir">Kota Lahir</label>
-                </td>
-                <td>
-                    <input type="text" name="kotalahir" id="kotalahir" placeholder="Masukkan nama kota kelahiran">
-                </td>
-            </tr>
-        </table>
-        
-    </fieldset>
+    <form action="/data-process" >
+        <fieldset>
+            <legend>Biodata Diri</legend>
+    
+            <p>Masukkan data pribadi Anda</p>
+    
+            <table border="1">
+                <tr>
+                    <td>
+                        <label for="namalengkap">Nama Lengkap</label>
+                    </td>
+                    <td>
+                        <input type="text" name="namalengkap" id="namalengkap" placeholder="Masukkan nama lengkap"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="kotalahir">Kota Lahir</label>
+                    </td>
+                    <td>
+                        <input type="text" name="kotalahir" id="kotalahir" placeholder="Masukkan nama kota kelahiran">
+                    </td>
+                </tr>
+            </table>
+            
+        </fieldset>
+    </form>  
     
 </body>
 </html>

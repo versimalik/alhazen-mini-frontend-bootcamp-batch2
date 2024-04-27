@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Change Style</title>
+
+    <style>
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            color: red;
+            font-size : 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="judul">Selamat Datang</h1>
+    <h2 id="subjudul">Di kelas mini bootcamp frontend</h2>
+    <button id="changecolor" onclick="changeColor()">Change Color</button>
+    <button id="changewidth" onclick="changeWidth()">Change Width</button>
+
+    <script>
+        const judul = document.getElementById("judul")
+
+        function changeColor(){
+            if(judul.style.color == "red"){
+                judul.style.color = "blue";
+            } else {
+                judul.style.color = "red";
+            }
+        }
+
+        function changeWidth()
+        {
+            judul.style.fontSize = "100px";
+        }
+
+    </script>
+    
+</body>
+</html>
